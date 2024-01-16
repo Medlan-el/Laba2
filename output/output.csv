@@ -1,0 +1,108 @@
+0:00:00,0:00:03.600000,"Recently, the founder of Stability AI made an ominous prediction."
+0:00:03.600000,0:00:05,There are no programmers in 5 years.
+0:00:05,0:00:07,There are no programmers in 5 years.
+0:00:07,0:00:10,"Just two years ago, nobody was using AI code assistance,"
+0:00:10,0:00:13.200000,"but two years after GitHub Copilot Beta was launched, we're now here."
+0:00:13.200000,0:00:16.400000,41% of all code on GitHub right now is AI generated.
+0:00:16.400000,0:00:18.800000,"That's a crazy claim, and I'd be highly skeptical of it,"
+0:00:18.800000,0:00:21.600000,but I'd believe it next year after looking at these crazy new updates
+0:00:21.600000,0:00:24.400000,"in GitHub Copilot, the launch of Google's duet AI,"
+0:00:24.400000,0:00:27.900000,"and the launch of JetBrains AI, all of which just happened in the last few days."
+0:00:27.900000,0:00:31.600000,"It is December 14th, 2023, and you're watching the code report."
+0:00:31.600000,0:00:33.900000,"Before we get into this video, first a disclaimer."
+0:00:33.900000,0:00:37.500000,The tools we're about to look at may make you want to drop out of your computer science degree
+0:00:37.500000,0:00:38.900000,and switch your major to plumbing.
+0:00:38.900000,0:00:42.500000,"But that would be dumb, because they're also coming out with AI-powered smart toilets."
+0:00:42.500000,0:00:46.200000,"But more importantly, pessimism leads to weakness, optimism leads to power."
+0:00:46.200000,0:00:48.500000,"It's possible programmers won't exist in 5 years,"
+0:00:48.500000,0:00:52.400000,but it's also possible that programmers will get paid 5 times as much in 5 years
+0:00:52.400000,0:00:55.400000,because everyone got discouraged and quit computer science in 2023.
+0:00:55.400000,0:00:57.700000,"Okay, so now that we have that optimism out of the way,"
+0:00:57.700000,0:01:00.400000,what we're looking at today is the next generation of AI tooling.
+0:01:00.400000,0:01:02,"But as of today, that's all it is."
+0:01:02,0:01:04.200000,It's not capable of replacing any human yet.
+0:01:04.200000,0:01:08.400000,The big announcement yesterday is that duet AI from Google is now generally available.
+0:01:08.400000,0:01:12,It can be installed into your IDE and provides access to an AI chatbot.
+0:01:12,0:01:16.700000,You can chat in a dedicated panel or get inline suggestions and a telecent just like GitHub Copilot.
+0:01:16.700000,0:01:18.600000,"But unlike Copilot, it's totally free."
+0:01:18.600000,0:01:21.600000,"Well, at least until next year before it becomes $19 per month."
+0:01:21.600000,0:01:24.600000,"It's real killer feature, though, is its integration with Google Cloud."
+0:01:24.600000,0:01:29,"It allows you to link a Cloud project and then manage all the resources directly from the IDE,"
+0:01:29,0:01:32.900000,as well as access documentation and generate code samples for your project.
+0:01:32.900000,0:01:37.100000,"And it's also worth noting that Google is working on its own Cloud IDE based on VS Code,"
+0:01:37.100000,0:01:40.600000,"called Project IDX, which is not only integrated with this AI,"
+0:01:40.600000,0:01:45.500000,but also has things like iOS and Android emulators built in that run on a Cloud VM.
+0:01:45.500000,0:01:47.900000,So you don't have to download and configure a bunch of SDKs.
+0:01:47.900000,0:01:51.400000,"Now, currently, its underlying AI model is not Gemini Ultra,"
+0:01:51.400000,0:01:53.700000,which is claimed to be the best AI programmer out there.
+0:01:53.800000,0:01:57.800000,"If that's true, Duet has the potential to be a GitHub Copilot killer in the future."
+0:01:57.800000,0:02:02.500000,"But speaking of Copilot killers, JetBrains also just announced their new Copilot killer in December."
+0:02:02.500000,0:02:05.300000,"It is possible to use Copilot and JetBrains IDEs,"
+0:02:05.300000,0:02:07,but the experience has never been that great.
+0:02:07,0:02:10,"It just feels like it gets in the way, more so than it does in VS Code."
+0:02:10,0:02:13,The AI assistant feels much more natural and well integrated
+0:02:13,0:02:17.500000,"and can do things like chat, refactoring, write documentation, write unit tests,"
+0:02:17.500000,0:02:20.600000,"offer companionship, generate commit messages, and so on."
+0:02:20.700000,0:02:22.700000,"But with a price tag of $10 per month,"
+0:02:22.700000,0:02:24.900000,it costs nearly as much as the IDE itself.
+0:02:24.900000,0:02:26.700000,And the initial reviews are fairly mixed.
+0:02:26.700000,0:02:30.500000,"What's interesting, though, is that it's powered by something called JetBrains AI service."
+0:02:30.500000,0:02:33.500000,And this allows the chatbot to be powered by multiple different models.
+0:02:33.500000,0:02:36.700000,"There's not a ton of detail around this, but it's an extremely powerful idea."
+0:02:36.700000,0:02:39.500000,"With Copilot and Duet, you have GPT-4 in Gemini,"
+0:02:39.500000,0:02:43,"but with JetBrains, you could hypothetically hook up your own fine-tune model,"
+0:02:43,0:02:45.600000,"like maybe the open-source CodeLama or Mistral,"
+0:02:45.600000,0:02:47.800000,"combined with the billions of lines of code at your company,"
+0:02:47.800000,0:02:51.400000,allowing the AI to provide predictable responses based on your coding conventions.
+0:02:51.400000,0:02:53.400000,"That's pretty cool, but at the same time,"
+0:02:53.400000,0:02:55.500000,GitHub Copilot just leveled up big time.
+0:02:55.500000,0:02:59.400000,"Previously, it was based on GPT 3.5, but now it's using GPT-4."
+0:02:59.400000,0:03:01.200000,"It now has a dedicated chat window,"
+0:03:01.200000,0:03:03.700000,so you basically have chat GPT in your IDE.
+0:03:03.700000,0:03:06.700000,But what's really amazing is that it has this workspace command
+0:03:06.700000,0:03:09.500000,that allows you to search all the code files in your workspace
+0:03:09.500000,0:03:12,to write code with the proper context in your project.
+0:03:12,0:03:14.700000,"So far, I've actually found it most useful for explaining code"
+0:03:14.700000,0:03:16.800000,when jumping into an unfamiliar project.
+0:03:16.900000,0:03:20.900000,"In other words, it makes it way easier to figure out what the hell is going on with this guy's spaghetti code."
+0:03:20.900000,0:03:22.700000,"It also now writes your commit messages,"
+0:03:22.700000,0:03:26.400000,and is also available in the terminal to explain and refactor commands.
+0:03:26.400000,0:03:28.600000,But there's one big problem with these AI tools.
+0:03:28.600000,0:03:32.600000,Sometimes they spit out suggestions from code and repos that you're not allowed to use.
+0:03:32.600000,0:03:34.100000,"And I really can't go back to jail,"
+0:03:34.100000,0:03:37.400000,"but luckily, Copilot will now search across billions of files in GitHub"
+0:03:37.400000,0:03:39.800000,and will return the licenses on any similar code.
+0:03:39.800000,0:03:42.900000,And that means you can be relatively confident that you're not stealing someone's code.
+0:03:42.900000,0:03:45.100000,"Well, I mean, you are stealing it, but you're allowed to."
+0:03:45.200000,0:03:48,"Overall, these changes are pretty amazing and extremely useful."
+0:03:48,0:03:50.800000,"These tools still can't build complex projects out of nowhere,"
+0:03:50.800000,0:03:53,but the big question is where are we going from here?
+0:03:53,0:03:55.800000,"Currently, Copilot doesn't run your code or create new files,"
+0:03:55.800000,0:03:57.200000,"but I think we're going there eventually,"
+0:03:57.200000,0:03:59.800000,"like you might be able to just take your client's requirements and say,"
+0:03:59.800000,0:04:01.200000,"hey, build this thing in Django,"
+0:04:01.200000,0:04:03.600000,"then Copilot will run the commands, create the files,"
+0:04:03.600000,0:04:06.400000,and run the unit tests required to make that a reality.
+0:04:06.400000,0:04:09.400000,Then you'll continue fine tuning it with multiple shots or prompts
+0:04:09.400000,0:04:12.800000,until it builds exactly what you're looking for without ever touching a line of code.
+0:04:12.800000,0:04:14.800000,Another missing piece is image data.
+0:04:14.800000,0:04:17.600000,"There are already tools that can convert a screenshot into code,"
+0:04:17.600000,0:04:18.900000,"and as these tools get better,"
+0:04:18.900000,0:04:21.300000,we'll likely see them integrated directly in the IDE.
+0:04:21.300000,0:04:23.100000,"Now, even if this stuff does get really good,"
+0:04:23.100000,0:04:24.800000,I wouldn't be discouraged as a programmer.
+0:04:24.800000,0:04:26.700000,Right now is one hell of a time to be alive.
+0:04:26.700000,0:04:28.100000,Code is just a means to an end.
+0:04:28.100000,0:04:29.900000,"Even if programming becomes obsolete,"
+0:04:29.900000,0:04:32.800000,there'll still be engineers pushing the limits of whatever comes next.
+0:04:32.800000,0:04:34.700000,"Like we still need to develop robots,"
+0:04:34.700000,0:04:36.400000,"brain ships, quantum computers,"
+0:04:36.400000,0:04:37.400000,"euthanasia pods,"
+0:04:37.400000,0:04:38.800000,"laser guns, space travel,"
+0:04:38.800000,0:04:39.600000,"time travel,"
+0:04:39.600000,0:04:41.500000,and all sorts of other sci-fi bullshit.
+0:04:41.500000,0:04:44.500000,And it's going to take some good old-fashioned problem-solving engineers
+0:04:44.500000,0:04:46.100000,to do that. So stay optimistic.
+0:04:46.100000,0:04:47.200000,This has been the Code Report.
+0:04:47.200000,0:04:48.200000,"Thanks for watching,"
+0:04:48.200000,0:04:49.700000,and I will see you in the next one.
