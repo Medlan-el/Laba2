@@ -1,10 +1,8 @@
 # Создание инструмента для распознавания речи в различных диалектах: адаптация моделей распознавания на разные языковые варианты
-
-Whisper:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1SjEl51PWQvQU-Iz-D-QtKw02ODncgLtV#scrollTo=czBHXELISwwU)
-
-Google:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/177Cq-ZhcfhVX9Ba6T6sy3L9TfVJReSr3#scrollTo=d5f80175)
+| Colab                                                                                                                                                                          | Info               |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------ |
+| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1SjEl51PWQvQU-Iz-D-QtKw02ODncgLtV?usp=sharing) | model-1 |
+| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/177Cq-ZhcfhVX9Ba6T6sy3L9TfVJReSr3?usp=sharing) | model-2 |
 
 ## Установка
 
